@@ -1,0 +1,191 @@
+/* CSS HEX 
+--rich-black-fogra-29: #0d1b2aff;
+--oxford-blue: #1b263bff;
+--bdazzled-blue: #415a77ff;
+--shadow-blue: #778da9ff;
+--platinum: #e0e1ddff;
+*/
+
+
+/* Global styles
+------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 2;
+}
+
+a {
+    color: blue;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 300;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.divider>section {
+    border-bottom: 1px dashed #e0e1ddff;
+    padding: 25px 0;
+}
+
+.divider>section:last-of-type {
+    border-bottom: none;
+}
+
+
+/* Header
+------------------------------------*/
+
+header {
+    background-color: #fdf0d2;
+    background-image: url("images/tech1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Nunito';
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 70px;
+    margin: 0;
+}
+
+header img {
+    width: 150px;
+    height: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+header a {
+    color: whitesmoke;
+    background: rgb(20, 43, 173);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+header a:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+
+/* Projects
+------------------------------------*/
+
+.projects {
+    background-color: #586F7C;
+}
+
+.projects a {
+    color: whitesmoke;
+    background: rgb(20, 43, 173);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects a:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+.work-experience {
+    background-color: #639fab;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 40px;
+}
+
+
+/* Education
+------------------------------------*/
+
+.education {
+    background-color: #F4D58D;
+}
+
+.img_back {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.img_back a {
+    color: whitesmoke;
+    background: rgb(20, 43, 173);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.img_back a:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+
+/* Contact Info
+------------------------------------*/
+
+footer {
+    background: #5d7685;
+    color: #F7FFF7;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+    flex: row;
+    justify-content: center;
+}
+
+.contact-list a img {
+    width: 45px;
+    height: 45px;
+}
